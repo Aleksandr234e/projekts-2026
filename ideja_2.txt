@@ -1,17 +1,26 @@
 Kāds varētu būt projekta nosaukums?
-
+Task_Focus_Master (Viedo uzdevumu plānotājs)
 
 Ko projekts dara vienā teikumā?
-
+Lietotne ļauj izveidot uzdevumu sarakstu ar prioritātēm, aprēķināt kopējo nepieciešamo laiku un saglabāt progresu datubāzē.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Tas ir produktivitātes rīks, kas palīdz lietotājiem pārvaldīt savu laiku (time management), novēršot haosu darbu sarakstā un palīdzot noteikt, kurš uzdevums ir vissvarīgākais.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Studenti un attālinātā darba veicēji, kuriem dienas laikā ir jātiek galā ar daudziem maziem uzdevumiem un nepieciešams vizuāls atgādinājums par paveikto.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Sākotnēji lietotājs mijiedarbojas ar programmu konsolē (ievadot datus), bet programma ģenerē un saglabā atskaiti JSON failā vai parāda grafisku statusu.
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
 
+Uzdevumu pievienošana ar prioritāti: Katram uzdevumam tiek piešķirts nosaukums, prioritāte (1–5) un plānotais laiks stundās.
+
+Datu glabāšana (JSON/SQLite): Visi uzdevumi tiek saglabāti failā, lai pēc programmas aizvēršanas tie nepazustu.
+
+Prioritāšu kārtošana: Algoritms izmanto Python sarakstus un sort() funkciju, lai automātiski sakārtotu darbus no svarīgākā uz mazāk svarīgo.
+
+Laika analīze (Bibliotēka): Izmantojot matplotlib vai pandas, programma izveido stabiņu diagrammu, kas parāda, cik stundas lietotājs plāno veltīt katrai uzdevumu kategorijai (piem. "Mācības", "Atpūta", "Darbs").
+
+Statusa atjaunināšana: Iespēja atzīmēt uzdevumu kā "Pabeigtu", kas pārvieto to uz vēstures sarakstu.
