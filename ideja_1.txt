@@ -1,17 +1,25 @@
 Kāds varētu būt projekta nosaukums?
-
+Personal_Finance_Tracker (Personīgo finanšu sekotājs)
 
 Ko projekts dara vienā teikumā?
-
+Programma ļauj lietotājam reģistrēt ienākumus un izdevumus, saglabāt tos lokālā datubāzē un ģenerēt vizuālu atskaiti par mēneša tēriņu tendencēm.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Tas ir produktivitātes un personīgo datu pārvaldības rīks, kas palīdz cilvēkiem kontrolēt savu budžetu, izvairīties no nepamatotiem tēriņiem un plānot uzkrājumus, aizstājot sarežģītas Excel tabulas ar vienkāršu saskarni.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Studenti un jaunie profesionāļi, kuri vēlas pārskatāmu un privātu veidu, kā sekot līdzi savai naudas plūsmai bez maksas lietotnēm vai bankas izrakstu manuālas šķirošanas.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Lietotājs mijiedarbosies ar programmu konsolē (terminālī), izmantojot teksta izvēlni, bet atskaites (grafiki) tiks parādītas atsevišķā logā, izmantojot bibliotēku (piemēram, matplotlib).
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
+Darījumu pievienošana: Iespēja ievadīt summu, kategoriju (piem., pārtika, īre, izklaide) un datumu, saglabājot tos SQLite datubāzē vai JSON failā.
 
+Datu apskate un filtrēšana: Lietotājs var izsaukt sarakstu ar visiem mēneša darījumiem, kas tiek apstrādāti, izmantojot Python vārdnīcas vai sarakstus.
+
+Vizuāla statistika: Izmantojot pip install matplotlib, programma uzģenerē sektoru diagrammu (pie chart), kas parāda izdevumu sadalījumu pa kategorijām.
+
+Budžeta limits: Iespēja iestatīt mēneša tēriņu griestus un saņemt brīdinājumu, ja esošie izdevumi tos pārsniedz.
+
+Datu eksports: Funkcija, kas visus saglabātos datus izvada glītā JSON formātā rezerves kopijai vai turpmākai analīzei.
