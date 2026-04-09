@@ -1,17 +1,25 @@
 Kāds varētu būt projekta nosaukums?
-
+Kalkulators
 
 Ko projekts dara vienā teikumā?
-
+Digitāls rīks, kas veic pamata matemātiskās darbības reāllaikā, nodrošinot ātru un precīzu rezultātu.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Tas ir produktivitātes rīks, kas aizstāj nepieciešamību pēc fiziska kalkulatora, piedāvājot ērtu veidu, kā veikt ikdienas aprēķinus tieši datorā vai telefonā.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Studenti un mājsaimniecības, kuriem nepieciešams ātri saskaitīt izdevumus, veikt mājasdarbus vai veikt vienkāršus mērījumu pārrēķinus.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Vienkārša GUI (Grafiskā saskarne) – klasisks logs ar ciparu tastatūru un darbību pogām ($+$, $-$, $*$, $/$), kas ir intuitīvi lietojams gan ar peli, gan tastatūras ciparu bloku.
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
+Četras pamata darbības: Saskaitīšana, atņemšana, reizināšana un dalīšana.
 
+Procentu aprēķins: Poga, kas pārvērš skaitli procentuālā vērtībā (noderīgi atlaidēm vai dzeramnaudai).
+
+Atmiņas funkcija (C un AC): Poga "C" pēdējā ieraksta dzēšanai un "AC" (All Clear) visa procesa sākšanai no nulles.
+
+Peldošā komata atbalsts: Iespēja veikt aprēķinus ar decimālskaitļiem (piemēram, 10.50 + 5.25).
+
+Reāllaika displejs: Logs, kurā lietotājs redz ievadītos skaitļus un galarezultātu skaidrā, salasāmā fontā.
