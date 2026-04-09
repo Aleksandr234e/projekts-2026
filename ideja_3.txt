@@ -15,11 +15,7 @@ Vienkārša GUI (Grafiskā saskarne) – klasisks logs ar ciparu tastatūru un d
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
 Četras pamata darbības: Saskaitīšana, atņemšana, reizināšana un dalīšana.
-
 Procentu aprēķins: Poga, kas pārvērš skaitli procentuālā vērtībā (noderīgi atlaidēm vai dzeramnaudai).
-
 Atmiņas funkcija (C un AC): Poga "C" pēdējā ieraksta dzēšanai un "AC" (All Clear) visa procesa sākšanai no nulles.
-
 Peldošā komata atbalsts: Iespēja veikt aprēķinus ar decimālskaitļiem (piemēram, 10.50 + 5.25).
-
 Reāllaika displejs: Logs, kurā lietotājs redz ievadītos skaitļus un galarezultātu skaidrā, salasāmā fontā.
