@@ -24,3 +24,16 @@ Prioritāšu kārtošana: Algoritms izmanto Python sarakstus un sort() funkciju,
 Laika analīze (Bibliotēka): Izmantojot matplotlib vai pandas, programma izveido stabiņu diagrammu, kas parāda, cik stundas lietotājs plāno veltīt katrai uzdevumu kategorijai (piem. "Mācības", "Atpūta", "Darbs").
 
 Statusa atjaunināšana: Iespēja atzīmēt uzdevumu kā "Pabeigtu", kas pārvieto to uz vēstures sarakstu.
+
+5 Funkcionālās prasības
+Uzdevumu pievienošana ar prioritāti — Katram uzdevumam tiek piešķirts nosaukums, prioritāte (1–5) un plānotais laiks stundās.
+Datu glabāšana (JSON/SQLite) — Visi uzdevumi tiek saglabāti failā, lai nepazustu pēc programmas aizvēršanas.
+Prioritāšu kārtošana — Algoritms automātiski sakārto darbus no svarīgākā uz mazāk svarīgo.
+Laika analīze (Diagrammu ģenerēšana) — Izmantojot matplotlib vai pandas, programma izveido stabiņu diagrammu ar laika sadalījumu.
+Statusa atjaunināšana — Iespēja atzīmēt uzdevumu kā "Pabeigtu", pārvietojot to uz vēstures sarakstu.
+
+3 Nefunkcionālās prasības
+Jūsu failā nav norādītas nefunkcionālās prasības. Ieteiktu pievienot:
+Veiktspēja — Programma apstrādā un kārto līdz 500 uzdevumiem apmēram 1 sekundē.
+Lietojamība — Intuitīva konsolē sākumgrāmata ar skaidru palīdzības sistēmu.
+Uzticamība — Dati paliek drošgi, sistēma nepiedzēš bez datu zuduma, kļūdu pārbaude JSON un datubāzes operācijās.
