@@ -34,3 +34,9 @@ Datu eksports: Funkcija, kas visus saglabātos datus izvada glītā JSON formāt
 1)	Privatums un drošums	Visi lietotāja dati tiek saglabāti lokāli (bez mākoņa sinhronizācijas), nevis uz ārējiem serveriem, nodrošinot datu privatumu.
 2)	Lietojamība	Konsolē balstīta teksta saskarne ar intuitīvu izvēlni, kas pieejama pat lietotājiem bez tehniskās pieredzes. Atskaites tiek parādītas grafiskā logā (matplotlib).
 3)	Veiktspēja	Programma var apstrādāt vismaz 1000+ mēneša darījumus bez būtiskas aiztures, un datu bāze var iekļaut vismaz 3+ gadus vēstures datus.
+
+Mani ļioti patīk šī ideja, jo es pats visu laiku domaju par to kā gribetos zināt cik es labi izmantoju naudu.
+es domāju ka apmēram 3.
+Šī programma būs noderīga lai planot savu budžetu vai vienkārši ieraudzīt kur var samazināt izdevumus.
+Es domāju ka šīs projekts atbilst kriterijam 5
+Manuprāt vares noprezentet 5.
