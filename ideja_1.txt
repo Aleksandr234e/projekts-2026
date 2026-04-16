@@ -40,3 +40,5 @@ es domāju ka apmēram 3.
 Šī programma būs noderīga lai planot savu budžetu vai vienkārši ieraudzīt kur var samazināt izdevumus.
 Es domāju ka šīs projekts atbilst kriterijam 5
 Manuprāt vares noprezentet 5.
+
+Budget planner—Expense tracker ir tikai telefonos un nevar uzinstalēt uz datoru, tikai angļu valoda, Kā plusi var redēt cik vel palika naudas no budžeta, kur un cik tu paterējis, labs disains.
