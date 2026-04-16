@@ -19,3 +19,14 @@ Procentu aprēķins: Poga, kas pārvērš skaitli procentuālā vērtībā (node
 Atmiņas funkcija (C un AC): Poga "C" pēdējā ieraksta dzēšanai un "AC" (All Clear) visa procesa sākšanai no nulles.
 Peldošā komata atbalsts: Iespēja veikt aprēķinus ar decimālskaitļiem (piemēram, 10.50 + 5.25).
 Reāllaika displejs: Logs, kurā lietotājs redz ievadītos skaitļus un galarezultātu skaidrā, salasāmā fontā.
+
+Cik ļoti mani aizrauj šī tēma?
+3
+Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līmenim? (1 — grūti, 5 — viegli)
+3
+Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā?
+4
+Vai šī programma atbilst visiem vērtēšanas kritērijiem?
+3-4
+Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam?
+5
