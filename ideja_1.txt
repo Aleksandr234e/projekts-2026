@@ -25,7 +25,7 @@ Budžeta limits: Iespēja iestatīt mēneša tēriņu griestus un saņemt brīdi
 Datu eksports: Funkcija, kas visus saglabātos datus izvada glītā JSON formātā rezerves kopijai vai turpmākai analīzei.
 
 5 Funkcionālās Prasības;
-1) Darījumu vadības sistēma	Lietotājs var pievienot, rediģēt un dzēst ienākumus/izdevumus ar summu, kategoriju, aprakstu un datumu. Dati tiek saglabāti SQLite datubāzē .
+1) Darījumu vadības sistēma	Lietotājs var pievienot, rediģēt un dzēst ienākumus/izdevumus ar summu, kategoriju, aprakstu un datumu. Dati tiek saglabāti JSON datubāzē .
 2)	Datu filtrēšana un apskate	Programma ļauj lietotājam apskatīt kategorijas, aprēķinot kopējās summas.
 3)	Vizuālā statistika	Programma ģenerē sektoru diagrammas (pie chart),parādot izdevumu sadalījumu pa kategorijām.
 4)	Budžeta limitu sistēma	Lietotājs var iestatīt mēneša pateriņu kopumā uz visu menesi.
@@ -33,7 +33,7 @@ Datu eksports: Funkcija, kas visus saglabātos datus izvada glītā JSON formāt
 3 Nefunkcionālās Prasības
 1)	Privatums un drošums	Visi lietotāja dati tiek saglabāti lokāli (bez mākoņa sinhronizācijas), nevis uz ārējiem serveriem, nodrošinot datu privatumu.
 2)	Lietojamība	Konsolē balstīta teksta saskarne ar intuitīvu izvēlni, kas pieejama pat lietotājiem bez tehniskās pieredzes. Atskaites tiek parādītas grafiskā logā (matplotlib).
-3)	Veiktspēja	Programma var apstrādāt vismaz 1000+ mēneša darījumus bez būtiskas aiztures, un datu bāze var iekļaut vismaz 3+ gadus vēstures datus.
+3)	Veiktspēja	Programma var darboties ilgu laiku bez datu tirišanas no datu glabšanas faila.
 
 Mani ļioti patīk šī ideja, jo es pats visu laiku domaju par to kā gribetos zināt cik es labi izmantoju naudu.
 es domāju ka apmēram 3.
