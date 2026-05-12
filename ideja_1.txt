@@ -14,7 +14,7 @@ Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkārš�
 Lietotājs mijiedarbosies ar programmu konsolē (terminālī), izmantojot teksta izvēlni, bet atskaites (grafiki) tiks parādītas atsevišķā logā, izmantojot bibliotēku (piemēram, matplotlib).
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-Darījumu pievienošana: Iespēja ievadīt summu, kategoriju (piem., pārtika, īre, izklaide) un datumu, saglabājot tos SQLite datubāzē vai JSON failā.
+Darījumu pievienošana: Iespēja ievadīt summu, kategoriju (piem., pārtika, īre, izklaide) un datumu, saglabājot tos  JSON failā.
 
 Datu apskate un filtrēšana: Lietotājs var izsaukt sarakstu ar visiem mēneša darījumiem, kas tiek apstrādāti, izmantojot Python vārdnīcas vai sarakstus.
 
@@ -28,7 +28,7 @@ Datu eksports: Funkcija, kas visus saglabātos datus izvada glītā JSON formāt
 1) Darījumu vadības sistēma	Lietotājs var pievienot, rediģēt un dzēst ienākumus/izdevumus ar summu, kategoriju, aprakstu un datumu. Dati tiek saglabāti SQLite datubāzē .
 2)	Datu filtrēšana un apskate	Programma ļauj lietotājam apskatīt kategorijas, aprēķinot kopējās summas.
 3)	Vizuālā statistika	Programma ģenerē sektoru diagrammas (pie chart),parādot izdevumu sadalījumu pa kategorijām.
-4)	Budžeta limitu sistēma	Lietotājs var iestatīt mēneša tēriņu griestus katrai kategorijai vai kopumā, saņemot brīdinājumus, kad limiti tiek pārsniegti.
+4)	Budžeta limitu sistēma	Lietotājs var iestatīt mēneša pateriņu kopumā uz visu menesi.
 5)	Datu eksports	Programma var eksportēt darījumu vēsturi JSON formātā rezerves kopijai vai analīzei.
 3 Nefunkcionālās Prasības
 1)	Privatums un drošums	Visi lietotāja dati tiek saglabāti lokāli (bez mākoņa sinhronizācijas), nevis uz ārējiem serveriem, nodrošinot datu privatumu.
@@ -41,7 +41,8 @@ es domāju ka apmēram 3.
 Es domāju ka šīs projekts atbilst kriterijam 5
 Manuprāt vares noprezentet 5.
 
-Budget planner—Expense tracker ir tikai telefonos un nevar uzinstalēt uz datoru, tikai angļu valoda, Kā plusi var redēt cik vel palika naudas no budžeta, kur un cik tu paterējis, labs disains.
+Budget planner—Expense tracker ir tikai telefonos un nevar uzinstalēt uz datoru, tikai angļu valoda.
+Kā plusi var redēt cik vel palika naudas no budžeta, kur un cik tu paterējis, labs disains.
 
 notepad.lv(Budžeta plānošanas kalkulators) 
 Plusi:
