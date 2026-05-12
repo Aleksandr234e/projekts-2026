@@ -1,3 +1,29 @@
+#Pozitīvs 1
+# Nosaukums:Pievinot summu pie kategorijas
+# Priekšnosacījums:palaist programu
+# Testa (darbību) soļi:Palaistam programu un lodziņa kurš atrodas augšaja krejsaja sturi uzrakstīt summu (129,3) un uzspiest "Pievienot". 
+#Paredzētie rezultāti:Ciparam ja paradas "Partikas" kategorija.
+
+#Pozitīvs 2
+# Nosaukums:Dzēst summu no kategorijas
+# Priekšnosacījums:palaist programu
+# Testa (darbību) soļi:Palaistam programu un zem nosaukuma "Partika" ja izvēlās ciparu 123,9 , lai izveleties vajag vienkarši uzspiest uz ciparu lodziņa. Pēc tam kad cipara aizmugurejas fons palika zils uzspiežot "Dzēst" pogu izdešat ciparu.
+#Paredzētie rezultāti:Ciparam ja pazūt.
+
+#Negatīvs 1
+# Nosaukums:Nesaglabati dati.
+# Priekšnosacījums:palaist programu
+# Testa (darbību) soļi:Palaistam programu un lodziņa kurš atrodas augšaja krejsaja sturi uzrakstīt summu (129,3);(100);(200) un uzspiest Add, pēc tam ciparam ja paradas "Partikas" kategorija. Kad viss būs pievienots uzspiest pogu "Iziet". 
+#Paredzētie rezultāti:Ja paradas bridinajumam kur būs rakstīts "Vai jūs velaties saglābāt datus?".
+
+#Negatīvs 2
+# Nosaukums:Riņķvejdadiogramas kļuda
+# Priekšnosacījums:palaist programu
+# Testa (darbību) soļi:Palaist programmu , jā ir ievaditi dati jeb kura no kategorijam vajag uzspiest uz cipariem lodziņa. Pēc tam kad cipara aizmugurejas fons palika zils uzspiežot "Dzēst" pogu izdešat ciparu. Kad visas kategorijas būs tukšas ja pamejģina izvejdot diagrammu.
+# Paredzētie rezultāti: Terminala jā paradas "ValueError: not enough values to unpack (expected 3, got 0)".
+
+
+
 import json
 import tkinter as tk
 from tkinter import messagebox
@@ -303,16 +329,16 @@ daygram_showing.grid(row = 2, column = 2)
 
 
 #Izvejdo pogu ar kuru palidzību var pievienot
-entry_bth1 = tk.Button(frame, text = "Add", command = add_to_list, **button_style)
+entry_bth1 = tk.Button(frame, text = "Pievinot", command = add_to_list, **button_style)
 entry_bth1.grid(row = 0, column = 2, padx = 1, pady = 1)
 root.bind("<Return>", add_to_list)
 
 #Izvejdo pogu ar kuru palidzību var dzēst no
-entry_btn2 = tk.Button(frame, text = "Delete", command = dellet_from_list, **button_style)
+entry_btn2 = tk.Button(frame, text = "Dzēst", command = dellet_from_list, **button_style)
 entry_btn2.grid(row = 0, column = 3, padx = 1, pady = 1)
 root.bind("<BackSpace>", dellet_from_list)
 
-Button = tk.Button(root, text = "Quit", command = quit_program, **button_style)
+Button = tk.Button(root, text = "Iziet", command = quit_program, **button_style)
 Button.grid(row = 4, column = 3 , padx = 5, pady = 5)
 
 error_label = tk.Label(root, text = "", fg = "red")
